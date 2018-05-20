@@ -1,4 +1,4 @@
-			*				{margin:0px; padding:0px;}
+			*				{margin:0px; padding:0px; font-family:Arial;}
 			header, footer	{background-color: #000000; padding:5px; text-align:center;}
 			nav				{background-color: #ffffff; padding:5px; text-align:center; font-weight:bold;}
 			nav ul 			{list-style-type:none; padding:20px;}
@@ -6,11 +6,14 @@
 			#spalten		{display: table; min-width:720px; min-width:60em;}
 			aside			{background-color:#fffff; padding:10px; width:180px; display: table-cell;}
 			main			{ padding:5px; display: table-cell; padding:10px;}
+			.title			{text-align:center;}
 			.logo			{height:128; width:128;}
 			.Menu			{font-family:Arial Black; font-size:18px;}
 			.banner			{width:1280; height:240;}
-			.content		{top:347px; width:1280; background-color:white;}
-			.text			{top:45px;}
+			.content		{top:347px; width:1280; background-color:white; left:128px;}
+			.text			{top:45px; margin-left:20px;}
+			.logouser		{height:64px; width:64pp;}
+			.distance		{margin-left:10px; margin-right:10px;}
 			a:link 			{ font-weight:bold; color:blue; text-decoration:none; }
 			a:visited 		{ font-weight:bold; color:silver; text-decoration:none; }
 			a:focus 		{ font-weight:bold; color:red; text-decoration:underline; }
